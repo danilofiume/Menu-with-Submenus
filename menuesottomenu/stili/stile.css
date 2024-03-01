@@ -1,0 +1,128 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+
+    
+    margin: 0 auto;
+    font-size: 100%;
+    
+    
+   
+}
+
+
+header {
+    background-color: #e8514e;
+    text-align: center;
+    width: 100%;
+    color: white;
+    padding: 0.1em;
+    margin: 0 0 2em 0;
+    
+}
+
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+
+}
+
+nav ul li {
+    width: calc(100% / 5);
+    float: left;
+    position: relative;
+}
+
+nav ul li ul {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 100%;
+}
+
+nav ul li li {
+    width: 100%;
+}
+
+nav ul li ul {
+    display: none;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li:hover ul ul {
+    display: none;
+}
+
+nav ul li ul li:hover ul {
+    display: block;
+    top: 0;
+    left: 100%;
+}
+
+nav ul li a {
+    text-align: center;
+    text-decoration: none;
+    background-color: #f7d100;
+    display: block;
+    color: #2d57a4;
+    padding: 0.7em 0;
+}
+
+nav ul li:hover>a {  /*fa il colore alla barra principale tipo figlia di a*/
+    background-color: #2d57a4;
+    color: white;
+    
+}
+
+
+nav ul ul li a {
+    background-color: #5071af;
+    color: white;
+    text-align: center;
+    text-align: left;
+    font-size: 0.8em;
+    text-indent: 1em;
+
+}
+
+nav ul ul li a:hover {
+    background-color: #2d57a4;
+    color: white;
+    
+}
+
+
+
+
+article {
+    padding:  2em 4em;
+    font-size: 1.2em;
+}
+
+
+div {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+}
